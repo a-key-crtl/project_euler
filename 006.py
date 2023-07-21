@@ -32,7 +32,7 @@ def sum_of_squares(y):
     return square_total
 
 # Subtract sum of squares from square of sum 
-difference = -(2640 + sum_of_squares(11)) + (385 + square_of_sum(11))
+difference = square_of_sum(1) - sum_of_squares(1)
 
 # Print difference
 print(difference)
